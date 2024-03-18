@@ -1,11 +1,13 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 import "./App.css";
-import * as React from "react";
+import React from "react";
 import Message from "./Message";
+import Alert from "./Alert";
 
 function App() {
   // const [count, setCount] = useState(0);
+  // const [alertVisible, setAlertVisibility] = useState(false);
 
   return (
     <>
@@ -30,6 +32,9 @@ function App() {
         Click on the Vite and React logos to learn more
       </p> */}
       <Message></Message>
+      <Alert>
+        Hellow <span>Po </span> span world{" "}
+      </Alert>
     </>
   );
 }
